@@ -1,0 +1,43 @@
+What is Javascript?
+Javascript is a programming language
+JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
+1. prototype based: Prototype-based programming is a style of object-oriented programming in which classes are not explicitly defined, but rather derived by adding properties and methods to an instance of another class or, less frequently, adding them to an empty object.
+2. multi-paradigm: Paradigm can also be termed as method to solve some problem or do some task. JS is multi-paradigm language, which means that we can easily mix a lot of different paradigms inside a simple piece of JavaScript code. We can use object-oriented, procedural and functional programming paradigms all at the same time in JavaScript
+3.single-threaded : JavaScript is a single-threaded language, which means it has only one call stack that is used to execute the program.Since JavaScript is a single-threaded language, it is synchronous in nature.
+4. dynamic language: In dynamically typed languages all type checks are performed in a runtime, only when your program is executing. So this means you can just assign anything you want to the variable and it will work.
+
+A)  Console
+B). Alert
+C). Prompt
+D)  Comparison operator =>  >, <, >=, <=, ==
+E).  Logical operator &&, ||, !
+F).  Difference b/w  == only check data, === check data and type both.
+G).  If else if else
+H).  Difference b/w var, let, const
+        VAR: 1. The scope of the var keyword is the global or function scope.
+             2. If the user tries to access variable outside the function, it will display the error(Reference Error).
+             3. We can re-declare the variable using var and the user can update var variable.
+             4. If users use the var variable before the declaration, it initializes with the undefined value.
+
+        LET: 1. let keyword is an improved version of the var keyword. and is only block scoped.    
+             2. The code returns an error(Reference Error) because we are accessing the let variable outside the function block.
+             3. Users cannot re-declare the variable defined with the let keyword(syntaxerror) but can update it.
+             4. Users can declare the variable with the same name in different blocks using the let keyword.
+             5.If users use the let variable before the declaration, it does not initialize with undefined just like a var variable, and returns an error.
+
+         CONST: 1. When users declare a const variable, they need to initialize it, otherwise, it returns an error. The user cannot update the const variable once it is declared. 
+                
+
+I).Guess a number program =>   { program1.js}
+    1) take a value
+    2) now user will guess the number. If number is right then give alert that num is correct.
+    3) if guess is greater than print msg and  the take input again. Repeat process until user guess right num.
+    4. if guess is less than print msg and  the take input again. Repeat process until user guess right num.    
+
+J). Print 1-10 num using while loop and for loop  {program2.js}
+        O/p=>   count is: 1
+                count is: 2
+Continue break use;
+Even num
+Print 1-10 except 5 
+Infinite loop
